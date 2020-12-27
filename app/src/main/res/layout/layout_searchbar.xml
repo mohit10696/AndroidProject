@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingTop="4dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="4dp">
+
+    <ImageView
+        android:id="@+id/ic_back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:padding="8dp"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+    <EditText
+        android:id="@+id/editsearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/transparent"
+        android:hint="@string/txt_search"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:lines="1"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/darkGrey"
+        android:textColorHint="@color/lightGrey"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/ic_text"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:padding="12dp"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:visibility="gone" />
+</LinearLayout>

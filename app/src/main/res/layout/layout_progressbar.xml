@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_showProgress"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="60dp">
+
+
+    <TextView
+        android:id="@+id/thanks"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Thank You\nFor Downloading"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:visibility="gone"
+        android:fontFamily="@font/noto_sans"
+        android:textSize="20sp"
+        ></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/btn_cancelDownload">
+
+        <TextView
+            android:id="@+id/txt_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/downloading"
+            android:textColor="@color/darkGrey"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/txt_fileSize"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:text="20.58 MB"
+            android:textColor="@color/darkGrey"
+            android:textSize="16dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarHorizontal"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_progress"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="20" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btn_cancelDownload"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/transparent"
+        android:padding="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_cancel_black_24dp" />
+</RelativeLayout>

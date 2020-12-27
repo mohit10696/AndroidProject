@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#000000</color>
+    <color name="colorArrow">#000000</color>
+    <color name="colorDivider">#efefef</color>
+    <color name="colorMoodText">#141414</color>
+    <color name="colorNavBar">#000</color>
+    <color name="colorNavText">#ffff</color>
+    <color name="colorPrimary">#141414</color>
+    <color name="colorPrimaryDark">#141414</color>
+    <color name="toolbarTextColor">#000000</color>
+    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="tooltip_background_light">#e6ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#fff</color>
+    <color name="back">#EEF2F5</color>
+    <color name="darkGrey">#141414</color>
+    <color name="lightGrey">#676767</color>
+    <color name="switchX">#676767</color>
+</resources>

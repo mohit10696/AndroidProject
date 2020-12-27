@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/navItem"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="left|center_vertical|center_horizontal|center|start"
+        android:paddingStart="50dp"
+        android:text="@string/txt_home"
+        android:fontFamily="@font/noto_sans_bold"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+
+    <View
+        android:layout_below="@id/navItem"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="10dp"
+        android:background="#000000"/>
+
+</RelativeLayout>
